@@ -11,7 +11,7 @@
     <!-- Map generation -->
   <!-- <node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/classroom.pcd">    
   </node> -->
-  <node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/explore1.pcd">    
+  <node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/pillar.pcd">    
   </node>
 
   <include file="$(find exploration_manager)/launch/single_drone_exploration.xml">
